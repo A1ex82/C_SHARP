@@ -4,7 +4,7 @@
 
 
 Console.Write("Введите число N: ");
-int N = int.Parse(Console.ReadLine());
+int N = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Таблица кубов чисел:");
 
