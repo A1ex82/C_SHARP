@@ -55,3 +55,5 @@ double CalculateDifference(double[] randomArray)
 
 double difference = CalculateDifference(randomArray);
 Console.WriteLine($"Разница между максимальным и минимальным элементами: - {difference} ");
+
+
