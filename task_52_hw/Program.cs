@@ -46,9 +46,7 @@ int rows = randomArray.GetLength(0);
 int cols = randomArray.GetLength(1);
 
 double[] columnAverages = CalculateColumnAverages(randomArray, rows, cols);
-
 Console.WriteLine("Средние арифметические значения в каждом столбце:");
-
 for (int col = 0; col < cols; col++)
 {
   Console.WriteLine($"Столбец {col + 1}: {columnAverages[col]}");
@@ -60,14 +58,11 @@ double[] CalculateColumnAverages(int[,] array, int rows, int cols)
   for (int col = 0; col < cols; col++)
   {
     double columnSum = 0;
-
     for (int row = 0; row < rows; row++)
     {
       columnSum += array[row, col];
     }
-
     columnAverages[col] = columnSum / rows;
   }
-
   return columnAverages;
 }
