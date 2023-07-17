@@ -7,17 +7,17 @@ Console.WriteLine("Введите значения k1, b1, k2 и b2 для дв�
 
 // Ввод коэффициентов для первой прямой (y = k1 * x + b1)
 Console.Write("k1: ");
-double k1 = double.Parse(Console.ReadLine());
+double k1 = Convert.ToDouble(Console.ReadLine());
 
 Console.Write("b1: ");
-double b1 = double.Parse(Console.ReadLine());
+double b1 = Convert.ToDouble(Console.ReadLine());
 
 // Ввод коэффициентов для второй прямой (y = k2 * x + b2)
 Console.Write("k2: ");
-double k2 = double.Parse(Console.ReadLine());
+double k2 = Convert.ToDouble(Console.ReadLine());
 
 Console.Write("b2: ");
-double b2 = double.Parse(Console.ReadLine());
+double b2 = Convert.ToDouble(Console.ReadLine());
 
 // Решение системы уравнений для нахождения точки пересечения (x, y)
 double x = (b2 - b1) / (k1 - k2);
