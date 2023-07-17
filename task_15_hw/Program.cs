@@ -6,7 +6,7 @@
 */
 
 Console.Write("Введите цифру дня недели (1 - понедельник, 2 - вторник, ..., 7 - воскресенье): ");
-int dayOfWeek = int.Parse(Console.ReadLine());
+int dayOfWeek = Convert.ToInt32(Console.ReadLine());
 
 bool isWeekend = IsWeekend(dayOfWeek);
 if (isWeekend)

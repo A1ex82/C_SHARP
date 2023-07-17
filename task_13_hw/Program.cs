@@ -6,7 +6,7 @@
 */
 
 Console.Write("Введите число: ");
-int number = int.Parse(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 
 int thirdDigit = GetThirdDigit(number);
 if (thirdDigit != -1)
