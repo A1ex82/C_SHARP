@@ -24,7 +24,7 @@ int[,] FillArray(int size)
 
     for (int row = rowStart; row <= rowEnd; row++)
     {
-    array[row, colEnd] = value++;
+      array[row, colEnd] = value++;
     }
     colEnd--;
 
